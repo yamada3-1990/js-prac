@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- defer: bodyタグも全部読み込まれた後に実行される -->
+    <script src="script.js" defer type="module"></script>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div class="title">favorite videos list</div>
+
+    <div class="listing">
+        <input type="text" placeholder="video's URL" id="input-url">
+        <input type="text" placeholder="video's title" id="input-title">
+        <button id="add-button">add</button>
+        <button id="clear-button">CLEAR ALL LISTED ITEMS</button>
+    </div>
+
+
+    <div class="video-container" id="video-container">
+
+    </div>
+
+</body>
+
+</html>
